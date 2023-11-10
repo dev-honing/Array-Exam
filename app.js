@@ -28,3 +28,6 @@ const pokemonList = [ // pokemonList.length: 4
 // Q. 명단의 순서를 역순으로 바꾸고자 합니다. 이를 위한 코드를 작성하세요.
 
 // A. studentList.reverse();
+
+const reversedStudentList = studentList.reverse();
+console.log(reversedStudentList);
