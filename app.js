@@ -41,3 +41,6 @@ const newStudent = "새 학생";
 // 1번은 메서드 같으니 2번부터 시도해본다.
 // 2-1. 변수 재할당처럼 요소 재할당이 가능한지 테스트 해보기
   console.log(studentList[2]); // 조회는 되는지 확인 -> 3번째 학생에 접근이 되었다.
+  studentList[2] = newStudent;
+  console.log(studentList[2]); // 이거 되는 것 같은데?
+  console.log(studentList); // 2번으로 진행한 내용은 성공
