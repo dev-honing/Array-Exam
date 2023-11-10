@@ -31,14 +31,6 @@ const pokemonList = [ // pokemonList.length: 4
 
 const newStudent = "새 학생";
 
-// 일단 이건 무조건 틀렸다.
-// 모르겠으니 메서드 사용하지 않고 절차를 생각해본다.
-
-// 절차 구상
-// 1. studentList[2]로 접근해서 지우고, 추가하기
-// 2. studentList[2]로 접근해서 요소에 덮어쓰기 - 성공
-
-// 배열의 요소를 삭제하는 방법 구글링
-// 1-1. splice(): 이게 정답이라 생각했는데, 작성법 보완이 필요하다.
-// 1-2. delete: 처음 보는 방식이라 학습이 필요하겠다.
-// 1-3. pop(): 이건 마지막 요소 삭제라 안될 것 같다.
+// 다시 도전: studentList.splice(2, 1, newStudent)
+studentList.splice(2, 1, newStudent);
+console.log(studentList);
