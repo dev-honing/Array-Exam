@@ -30,5 +30,10 @@ const pokemonList = [ // pokemonList.length: 4
 // A. studentList.splice() 같은데 매개변수 등을 고려해서 작성하는 방법을 잘 모른다.
 
 const newStudent = "새 학생";
-studentList.splice(studentList[2], newStudent);
-console.log(studentList);
+
+// 일단 이건 무조건 틀렸다.
+// 모르겠으니 메서드 사용하지 않고 절차를 생각해본다.
+
+// 절차 구상
+// 1. studentList[2]로 접근해서 지우고, 추가하기
+// 2. studentList[2]로 접근해서 요소에 덮어쓰기(재할당?)
