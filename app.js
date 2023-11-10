@@ -36,11 +36,9 @@ const newStudent = "새 학생";
 
 // 절차 구상
 // 1. studentList[2]로 접근해서 지우고, 추가하기
-// 2. studentList[2]로 접근해서 요소에 덮어쓰기(재할당?)
+// 2. studentList[2]로 접근해서 요소에 덮어쓰기 - 성공
 
-// 1번은 메서드 같으니 2번부터 시도해본다.
-// 2-1. 변수 재할당처럼 요소 재할당이 가능한지 테스트 해보기
-  console.log(studentList[2]); // 조회는 되는지 확인 -> 3번째 학생에 접근이 되었다.
-  studentList[2] = newStudent;
-  console.log(studentList[2]); // 이거 되는 것 같은데?
-  console.log(studentList); // 2번으로 진행한 내용은 성공
+// 배열의 요소를 삭제하는 방법 구글링
+// 1-1. splice(): 이게 정답이라 생각했는데, 작성법 보완이 필요하다.
+// 1-2. delete: 처음 보는 방식이라 학습이 필요하겠다.
+// 1-3. pop(): 이건 마지막 요소 삭제라 안될 것 같다.
