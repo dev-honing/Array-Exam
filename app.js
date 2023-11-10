@@ -31,6 +31,7 @@ const pokemonList = [ // pokemonList.length: 4
 
 const newStudent = "새 학생";
 
-// 다시 도전: studentList.splice(2, 1, newStudent)
-studentList.splice(2, 1, newStudent);
-console.log(studentList);
+// delete를 사용해서 배열의 요소 삭제해보기
+delete studentList[0];
+console.log(studentList); // <1 empty item>으로 요소가 대체된 모습 확인
+// 이 문제에는 적절한 방법은 아닌 것 같다!
