@@ -26,3 +26,5 @@ const pokemonList = [ // pokemonList.length: 4
 ]
 
 // Q. 임의의 학생(본인이름) 명단에서 몇 번째에 있는지 찾아서 그 위치를 출력하는 코드를 작성하세요.
+
+// A. studentList.indexOf("변호녕");
