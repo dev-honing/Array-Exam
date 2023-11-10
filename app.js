@@ -24,3 +24,5 @@ const pokemonList = [ // pokemonList.length: 4
   "파이리",
   "꼬부기"
 ]
+
+// Q1. 전체 명단을 문자열로 출력하여, 모든 학생의 이름이 쉼표로 구분되게 코드를 작성하세요.
