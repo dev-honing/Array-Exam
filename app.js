@@ -29,4 +29,5 @@ const pokemonList = [ // pokemonList.length: 4
 
 // A. studentList.indexOf("변호녕");
 
-console.log(studentList.indexOf("변호녕"));
+console.log(studentList.indexOf("변호녕")); // 3
+// 인덱스 3번에 있으므로 배열에서의 위치로는 4번이다.
