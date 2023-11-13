@@ -27,10 +27,9 @@ const pokemonList = [ // pokemonList.length: 4
 
 // Q. 명단 중 세 번째 학생이 전학을 갔고, 새 학생이 그 자리에 왔습니다. 기존 학생을 제거하고 새 학생을 추가하는 코드를 작성하세요.
 
-// A. studentList.splice() 같은데 매개변수 등을 고려해서 작성하는 방법을 잘 모른다.
+// A. studentList.splice() 
 
-const newStudent = "새 학생";
-
-// 다시 도전: studentList.splice(2, 1, newStudent)
+// 명단 중 세 번째 학생: 인덱스 2번
+const newStudent = '새 학생';
 studentList.splice(2, 1, newStudent);
 console.log(studentList);
